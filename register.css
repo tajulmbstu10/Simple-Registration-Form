@@ -1,0 +1,40 @@
+*{margin:0; padding:0; outline:0;}
+
+body{font-family:arial; font-size:20px; color:#444; line-height:20px;}
+.content{background:#E8E6F4; width:750px; height:auto; margin:0 auto; text-align:center; }
+
+.main{background:#BFBDD1; padding:10px 10px; margin:10px; min-height:500px;}
+.header ,.footer{padding:5px; background:#423A76; color:white;}
+
+
+form{background:#E8E6F4; padding: 5px 10px; margin: 5px;}
+
+table{ align:center; margin:30px; margin-right:70px;  margin-left: 70px; border:1px solid #D2CFE6; padding:10px;}
+td,tr{  cursor:pointer; font-size:15px;  text-align: left; height:35px; margin-bottom:0; padding: 5px 10px;}
+td{margin-top:none;}
+th{text-align: left; font-size:10px; border-spacing: 15px; margin-bottom:none;} 
+
+button{width: 200px; padding:5px 15px; height:400px; }
+input[type=button]:hover {background-color: #008080}
+input[type=submit]:hover {background-color: #008080}
+input[type=reset]:hover {background-color: #008080}
+.tag p{size:10px}
+select{height:30px; width:200px; border: 0; background-color: #D2CFE6;}
+input[type=text],input[type=number],input[type=email],input[type=password],input[type=date],input[type=tel]{ font-family:arial;height:30px; width:200px; border: 0; background-color: #D2CFE6;}
+
+#state{color: Red; width:200px;}
+
+input[type=file]{padding: 5px 10px}
+
+
+input[type=button],input[type=reset],input[type=submit]{
+    background-color: #160A61;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.name{width:30px;}
+.watch{background-color: #D2CFE6; margin-left:450px; padding: 5px 10px; font-size: 20px; font-family: 'digital-clock-font'; color: #2F4F4F	;}
